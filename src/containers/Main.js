@@ -19,6 +19,8 @@ import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
+import TechnicalSkills from "./technicalSkills/TechnicalSkills";
+import Certificates from "./certificates/Certificates";
 import "./Main.scss";
 
 const Main = () => {
@@ -53,18 +55,22 @@ const Main = () => {
             <Header />
             <Greeting />
             <Skills />
+			<TechnicalSkills />
+			<WorkExperience />
             <StackProgress />
-            <Education />
-            <WorkExperience />
+            
+            
             <Projects />
             <StartupProject />
             <Achievement />
+			<Certificates />
+			<Education />
             <Blogs />
             <Talks />
-            <Twitter />
+         
             <Podcast />
             <Profile />
-            <Footer />
+           
             <ScrollToTopButton />
           </>
         )}

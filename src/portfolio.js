@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Virendra Shivarkar",
+  title: "Hi all, I'm Virendra",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Lead QA Engineer | SDET | PLM Functional Consultant Expert 🚀 with 7+ years of experience in 3DEXPERIENCE, ENOVIA, Automation Testing, API Testing, and CI/CD. Passionate about building scalable QA solutions and AI-driven testing."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1IrgP2Gk00HUPE8FagAixvzrKw_9VM8Cu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/virenshivarkar81",
+  linkedin: "https://www.linkedin.com/in/virendra-shivarkar-881945110/",
+  gmail: "virenshivarkar301@gmail.com",
+ // gitlab: "https://github.com/virenshivarkar81",
+ // facebook: "https://www.facebook.com/saad.pasta7",
+ // medium: "https://medium.com/@saadpasta",
+ // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,109 +48,104 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "QA Lead | SDET | PLM Functional Consultant Expert",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    "⚡ End-to-end quality for PLM and Telecom applications",
+    "⚡ PLM transformation: migration, upgrade, implementation (3DEXPERIENCE)",
+    "⚡ PLM Functional Expert (ENOVIA: Change, Issue, Release workflows)",
+    "⚡ Functional, Regression, Integration, System & UAT testing",
+    "⚡ Test strategy, test design, and defect lifecycle management",
+    "⚡ Automation using Selenium, Playwright, TestNG, Cucumber",
+    "⚡ API testing (Postman, SOAP UI) with SQL validation",
+    "⚡ CI/CD with Jenkins in Agile environments",
+    "⚡ Backend validation using SQL and data integrity checks",
+    "⚡ PLM tools: ENOVIA, CATIA, DELMIA",
+    "⚡ Cross-team collaboration with architects and stakeholders",
+    "⚡ QA leadership, mentoring, and release readiness",
+    "⚡ Agile methodology (Scrum), SDLC and STLC practices",
+    "⚡ AI-driven QA: prompt engineering, evaluation, hallucination detection"
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
-const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
+const technicalSkills = {
+  title: "Technical Skills",
+  skills: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      category: "🧪 Testing",
+      items: "Manual, Functional, Regression, Smoke, Sanity, System, Integration, UAT"
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      category: "⚙️ Automation",
+      items: "Selenium WebDriver, Playwright, TestNG, Cucumber (BDD), Automation Framework Design"
+    },
+    {
+      category: "🔗 API Testing",
+      items: "REST API Testing, Postman, SOAP UI"
+    },
+    {
+      category: "🚀 CI/CD & DevOps",
+      items: "Jenkins, Continuous Integration, Continuous Testing, Git, Bitbucket"
+    },
+    {
+      category: "☁️ Cloud & Tools",
+      items: "AWS (EC2, S3 – Basic), Docker (Basic), Linux/UNIX, 3DEXPERIENCE SaaS"
+    },
+    {
+      category: "🗄️ Databases",
+      items: "SQL, MySQL, MQL (Matrix Query Language)"
+    },
+    {
+      category: "🐞 Defect Management",
+      items: "Jira, HP ALM, TestRail, Bugzilla"
+    },
+    {
+      category: "📊 Methodologies",
+      items: "Agile (Scrum), STLC, SDLC"
+    },
+    {
+      category: "💻 Programming",
+      items: "Core Java, SQL, Python"
+    },
+    {
+      category: "🌐 Domains",
+      items: "PLM, Telecom (CSM, CRM, Billing, Collection)"
+    },
+    {
+      category: "🏭 PLM Tools",
+      items: "ENOVIA, CATIA V5/V6, DELMIA, 3DEXPERIENCE, SOLIDWORKS, NX"
+    },
+    {
+      category: "📌 PLM Functional",
+      items: "Change Management, BOM, Requirement Mgmt, Variant Config, Release Mgmt, Workflow Validation"
+    },
+    {
+      category: "🔄 PLM Programs",
+      items: "Implementation, Customization, Migration, Upgrade, Data Validation, User Adoption"
+    },
+    {
+      category: "🤖 GenAI",
+      items: "Prompt Engineering, AI Testing, Response Evaluation, AURA, LEO AI Tools"
     }
-  ]
+  ],
+  display: true
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -170,33 +165,64 @@ const techStack = {
 
 // Work experience section
 
+
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Quality Engineering Specialist",
+      company: "Dassault Systèmes Global Services",
+	  companylogo: require("./assets/images/DS1.png"),
+      date: "Aug 2021 – Present",
+      desc:
+        "Leading QA validation and end-to-end delivery for PLM migration, upgrade, and implementation projects on 3DEXPERIENCE platform.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Acted as PLM Functional Consultant for ENOVIA workflows",
+        "Delivered projects for Mahindra, L&T Defense, Toyota, Boeing, Honda",
+        "Performed functional, regression, integration, and system testing",
+        "Implemented automation using Selenium, Playwright, and 3DXTAF",
+        "Performed API testing (Postman, SOAP UI) and SQL validation",
+        "Led Agile testing with CI/CD pipelines (Jenkins)",
+        "Managed defect lifecycle and Service Requests with R&D teams",
+        "Provided Hypercare support and ensured smooth production rollout",
+        "Worked on ENOVIA V6, CATIA V6, DELMIA process planning"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Associate Consultant / Functional Test Engineer",
+      company: "Datamatics (Client: Amdocs)",
+	  companylogo: require("./assets/images/amdocs.png"),
+      date: "Nov 2020 – Aug 2021",
+      desc:
+        "Worked on telecom applications including CSM, CRM, Billing, and Collection systems.",
+      descBullets: [
+  "Performed functional and regression testing for telecom applications (CSM, CRM, Billing, Collection)",
+  "Designed and executed test cases for smoke, integration, and accessibility testing",
+  "Conducted API testing using Postman and SOAP UI",
+  "Validated backend data using SQL queries for data consistency",
+  "Managed defect lifecycle using HP ALM and coordinated with development teams",
+  "Supported production deployments and sanity testing for Bell Canada releases",
+  "Collaborated with cross-functional teams to ensure complete test coverage",
+  "Participated in test execution, reporting, and release validation activities"
+]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Test Engineer",
+      company: "Qualitas Global Pvt. Ltd.",
+	  companylogo: require("./assets/images/qualitas.png"),
+      date: "Jul 2018 – Nov 2020",
+      desc:
+        "Worked on web and mobile testing with automation frameworks.",
+      descBullets: [
+  "Executed functional, regression, and compatibility testing for web and mobile applications",
+  "Developed automation scripts using Selenium WebDriver with Java and Cucumber (BDD)",
+  "Performed mobile testing on Android and iOS platforms with basic Appium exposure",
+  "Conducted cross-browser testing across Chrome, Firefox, and Safari",
+  "Performed cross-platform testing on Windows, Android, and iOS environments",
+  "Created test scenarios, test cases, and executed end-to-end test cycles",
+  "Managed defect lifecycle using Bugzilla and TestRail, ensuring timely resolution",
+  "Worked on projects including GameBench, Pitch Hub, Entie, and Teric AI applications"
+]
     }
   ]
 };
@@ -204,9 +230,37 @@ const workExperiences = {
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Savitribai Phule Pune University (SPPU)",
+	  logo: require("./assets/images/Savitribai_Phule_Pune_University_Logo.png"),
+      subHeader: "B.E. Computer Engineering",
+      duration: "2017",
+      desc: "62.62%"
+    },
+    {
+      schoolName: "MSBTE",
+	  logo: require("./assets/images/msbte.png"),
+      subHeader: "Diploma in Computer Engineering",
+      duration: "2014",
+      desc: "82.26%"
+    },
+    {
+      schoolName: "SSC Board",
+	  logo: require("./assets/images/Maharastra Board exam.webp"),
+      subHeader: "S.S.C",
+      duration: "2011",
+      desc: "78.91%"
+    }
+  ]
+};
+
+
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -239,68 +293,55 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements & Recognition 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Key achievements, awards, and contributions demonstrating leadership and delivery excellence",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+      title: "GENIUS Award (H2 2025)",
+      subtitle: "Outstanding performance and quality delivery",
+      image: require("./assets/images/a1.png"),
+      imageAlt: "GENIUS Award",
+      footerLink: []   // ✅ FIX
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+      title: "GENIUS Award (H2 2024)",
+      subtitle: "Exceptional contribution to project success",
+      image: require("./assets/images/a1.png"),
+      imageAlt: "GENIUS Award",
+      footerLink: []   // ✅ FIX
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "CHAMPION Award (H2 2023)",
+      subtitle: "Consistent delivery and team contribution",
+      image: require("./assets/images/a2.png"),
+      imageAlt: "Champion Award",
+      footerLink: []   // ✅ FIX
+    },
+    {
+      title: "Top Performer (2022–23)",
+      subtitle: "High-quality delivery and client satisfaction",
+      image: require("./assets/images/a4.jpg"),
+      imageAlt: "Top Performer",
+      footerLink: []   // ✅ FIX
+    },
+    {
+      title: "EVANGELIST Brand Award",
+      subtitle: "Contribution to branding and knowledge initiatives",
+      image: require("./assets/images/a3.png"),
+      imageAlt: "Evangelist Award",
+      footerLink: []   // ✅ FIX
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Blogs Section
@@ -324,7 +365,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +384,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +397,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,9 +412,10 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Open to QA Lead, SDET, and PLM Functional Consultant opportunities. Feel free to reach out for collaboration or opportunities.",
+  number: "+91-8686678181",
+  number1: "+91-9011393337",
+  email_address: "virenshivarkar301@gmail.com"
 };
 
 // Twitter Section
@@ -383,7 +425,15 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
+const certificates = {
+  title: "Certifications",
+  subtitle: "Professional certifications and continuous learning achievements",
+  link: "https://drive.google.com/drive/folders/12Cv3dDQTQKYoO_zJ43zj2gdBxQsbQzSt?usp=sharing",
+  display: true
+};
+
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -403,5 +453,7 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  technicalSkills,   // ✅ ADD THIS LINE
+  certificates
 };

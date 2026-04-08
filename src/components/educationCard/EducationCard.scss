@@ -3,6 +3,7 @@
 .education-card {
   display: flex;
   flex-direction: row;
+  width: 100%;   /* 🔥 IMPORTANT FOR GRID */
 }
 
 .education-card:hover + .education-card-border {
@@ -131,4 +132,15 @@
     max-width: 80%;
     margin: auto;
   }
+}
+/* 🔥 MAKE EDUCATION SIDE-BY-SIDE */
+.education-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
 }

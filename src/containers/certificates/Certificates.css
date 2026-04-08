@@ -1,0 +1,28 @@
+.cert-heading {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+
+.cert-link {
+  font-size: 18px;
+}
+
+.cert-link a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cert-link a:hover {
+  text-decoration: underline;
+}
+
+.cert-subtitle {
+  text-transform: uppercase;
+  color: #868e96;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: normal;
+}

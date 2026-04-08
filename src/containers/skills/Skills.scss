@@ -8,6 +8,7 @@
 
 .skills-text-div {
   margin-left: 50px;
+  flex: 1.5;   /* 🔥 ADD: more space for text */
 }
 
 .skills-main-div > * {
@@ -24,8 +25,33 @@
   font-size: 56px;
   font-weight: 400;
 }
+
 .subTitle {
   color: $subTitle;
+}
+
+/* 🔥 ADD THIS BLOCK */
+.skill-category {
+  margin-bottom: 10px;
+}
+
+.skill-category p {
+  display: flex;
+  flex-wrap: nowrap;        /* 🔥 FORCE SINGLE LINE */
+  overflow: hidden;
+  text-overflow: ellipsis;  /* 🔥 ADD ... if needed */
+}
+
+.skill-title {
+  white-space: nowrap;
+  font-weight: 600;
+  color: #6c63ff;
+}
+
+.skill-items {
+  margin-left: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Media Query */
@@ -34,31 +60,42 @@
     font-size: 40px;
   }
 }
+
 @media (max-width: 768px) {
   .skills-heading {
     font-size: 30px;
     text-align: center;
   }
+
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
   }
+
   .skills-main-div {
     flex-direction: column;
   }
+
   .skills-text-div {
     margin-left: 0px;
     margin: 20px;
   }
+
   .skills-text {
     font-size: 16px;
   }
+
   .skills-text-subtitle {
     font-size: 16px;
     text-align: center;
   }
+
   .skills-image-div {
-    /* display: none; */
     order: 2;
+  }
+
+  /* 🔥 MOBILE FIX */
+  .skill-category p {
+    flex-wrap: wrap;   /* allow wrap on mobile */
   }
 }
