@@ -26,7 +26,7 @@ const greeting = {
     "Lead QA Engineer | SDET | PLM Functional Consultant Expert 🚀 with 7+ years of experience in 3DEXPERIENCE, ENOVIA, Automation Testing, API Testing, and CI/CD. Passionate about building scalable QA solutions and AI-driven testing."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1IrgP2Gk00HUPE8FagAixvzrKw_9VM8Cu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Nu06oFFIwqgPVMLAkErv1H7vBEYuPNS3/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
